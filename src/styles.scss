@@ -1,0 +1,69 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(74, 132, 132);
+}
+.container {
+    font-size: 16px;
+    background-color: #fff;
+    width: 90vw;
+    max-width: 34em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 3em;
+    border-radius: 0.6em;
+    box-shadow: 0 1.2em 2.4em rgba(0, 70, 48, 0.25);
+}
+.letter-container{
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:0.6em;
+}
+#letter-container button{
+   height: 2.4em;
+   width: 2.4em;
+   border-radius: 0.3em;
+   background-color: #fff;
+}
+.new-game-popup{
+   background-color: #fff;
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-radius: 0.6em;
+}
+.hide{
+    display: none;
+}
+
+#user-input-section{
+   display: flex;
+   justify-content: center;
+   font-size: 1.8em;
+   margin: 0.6em 0 1.2em 0
+}
+.dashes{
+    margin: 3px;
+}
+canvas{
+display: block;
+margin: auto ;
+border: 1px solid #000
+}
